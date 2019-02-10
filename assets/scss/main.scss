@@ -1,38 +1,101 @@
+/*
+ * Evento -  Event html  Template
+ * Build Date: jan 2018
+ * Author: colorlib
+ * Copyright (C) 2018 colorlib
+ */
+/* ------------------------------------- */
+/* TABLE OF CONTENTS
+/* -------------------------------------
+    . GENERAL
+    . Header
+    . Footer
+    . BUTTONS
+    . ICON BOXES
+    . PROJECTS SECTION (PORTFOLIO)
+    . BLOG  SECTION
+    . COUNTER SECTION
+    . Testimonial SECTION
+	. Contact Section
+	.PROGRESSBAR
+	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
+	------------------------------------- */
 
-// Preset Color Styles
-@import "colors/presets";
+@import "base/_variables";
 
-// Global Styles
-@import "global";
+/*  ----------------------------------------------------
+1. GENERAL
+-------------------------------------------------------- */
+@import "base/_base";
 
-// Navbar
-@import "navbar";
+/*  ----------------------------------------------------
+2. HEADER
+-------------------------------------------------------- */
+@import "layout/_header";
 
-// About US Area
-@import "about";
+/*  ----------------------------------------------------
+3 Footer
+-------------------------------------------------------- */
+@import "layout/_footer";
 
-// Schedule Area
-@import "schedule";
+/*  ----------------------------------------------------
+4 buttons
+-------------------------------------------------------- */
 
-// Service Area
-@import "service";
+@import "components/_buttons";
 
-// Portfolio Area
-@import "portfolio";
 
-// Team Area
-@import "team";
+/*  ----------------------------------------------------
+Cover
+-------------------------------------------------------- */
+@import "components/_cover";
 
-// Blog Area
-@import "blog";
 
-// Contact Area
-@import "contact";
+/*  ----------------------------------------------------
+5 icon boxes
+-------------------------------------------------------- */
+@import "components/_icon_boxes";
 
-// Contact Area
-@import "footer";
+/*  ----------------------------------------------------
+6 speakers
+-------------------------------------------------------- */
+@import "components/_speaker";
+/*  ----------------------------------------------------
+7 Price box
+-------------------------------------------------------- */
+@import "components/_price_box";
+/*  ----------------------------------------------------
 
-// Shortcode
-@import "shortcode";
+/*  ----------------------------------------------------
+7 Event box
+-------------------------------------------------------- */
+@import "components/_event_box";
+/*  ----------------------------------------------------
 
+7 counter
+-------------------------------------------------------- */
+@import "components/_counter";
+/*  ----------------------------------------------------
+8 tabs
+-------------------------------------------------------- */
+@import "components/_tabs";
+/*  ----------------------------------------------------
+9 testimonial
+-------------------------------------------------------- */
+@import "components/_testimonial";
+/*  ----------------------------------------------------
+10 blog
+-------------------------------------------------------- */
+@import "components/_blog_box";
+
+/*  ----------------------------------------------------
+11 contact box
+-------------------------------------------------------- */
+@import "components/_contact";
+
+
+/*  ----------------------------------------------------
+12 progressbar
+-------------------------------------------------------- */
+@import "components/_progressbar";
 
